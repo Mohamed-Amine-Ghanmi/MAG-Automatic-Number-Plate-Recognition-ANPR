@@ -11,5 +11,5 @@ Steps :
 -Possible detected plates marked in red (features images)
 -Detected plates after the SVM classifier
 -Number recongnition using Neural Network classifie
-s
+s 
 Enjoy !
