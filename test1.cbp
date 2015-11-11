@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Automatic Number Plate Recognition (ANPR)" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/MAG/Documents/MEGA/projet/ferdaous/opencv/my_build/install/include/opencv2" />
+					<Add directory="C:/Users/MAG/Documents/MEGA/projet/ferdaous/opencv/my_build/install/include" />
+					<Add directory="C:/Users/MAG/Documents/MEGA/projet/ferdaous/opencv/my_build/install/include/opencv" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_calib3d249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_contrib249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_core249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_features2d249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_flann249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_gpu249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_highgui249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_imgproc249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_legacy249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_ml249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_nonfree249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_objdetect249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_ocl249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_photo249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_stitching249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_superres249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_ts249.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_video249.dll.a" />
+					<Add library="C:\Users\MAG\Documents\MEGA\projet\ferdaous\opencv\my_build\install\x86\mingw\lib\libopencv_videostab249.dll.a" />
+					<Add directory="C:/Users/MAG/Documents/MEGA/projet/ferdaous/opencv/my_build/install/x86/mingw/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="DetectRegions.cpp" />
+		<Unit filename="DetectRegions.h" />
+		<Unit filename="OCR.cpp" />
+		<Unit filename="OCR.h" />
+		<Unit filename="Plate.cpp" />
+		<Unit filename="Plate.h" />
+		<Unit filename="evalOCR.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="trainOCR.cpp" />
+		<Unit filename="trainSVM.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
